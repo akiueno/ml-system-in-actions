@@ -14,7 +14,7 @@ spec:
         - /dev/null
       resources:
         requests:
-          cpu: 1000m
+          cpu: 500m
           memory: "1000Mi"
       volumeMounts:
         - name: client
