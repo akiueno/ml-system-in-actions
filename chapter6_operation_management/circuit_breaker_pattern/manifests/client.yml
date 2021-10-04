@@ -18,8 +18,11 @@ spec:
         - -f
         - /dev/null
       resources:
+        limits:
+          cpu: 500m
+          memory: "1000Mi"
         requests:
-          cpu: 1000m
+          cpu: 500m
           memory: "1000Mi"
       volumeMounts:
         - name: client
